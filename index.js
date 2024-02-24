@@ -25,16 +25,14 @@ function toggleMarkerColors() {
     markers.forEach(function(marker) {
         if (marker.options.icon.options.iconUrl === 'green_marker.png') {
             marker.setIcon(L.icon({
-                // iconUrl: 'red_marker.png',
-                iconUrl: '<a href="https://www.flaticon.com/free-icons/red" title="red icons">Red icons created by Freepik - Flaticon</a>',
+                iconUrl: 'red_marker.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],
             }));
         } else {
             marker.setIcon(L.icon({
-                // iconUrl: 'green_marker.png',
-                iconUrl: '<a href="https://www.flaticon.com/free-icons/rec" title="rec icons">Rec icons created by hqrloveq - Flaticon</a>',
+                iconUrl: 'green_marker.png',
                 iconSize: [25, 41],
                 iconAnchor: [12, 41],
                 popupAnchor: [1, -34],
