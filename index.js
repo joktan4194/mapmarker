@@ -1,5 +1,5 @@
 // Initialize Leaflet map
-var map = L.map('map').setView([9.0820, 8.6753], 6);
+var map = L.map('map').setView([9.0820, 8.6753], 7);
 
 // Add the OpenStreetMap tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -31,9 +31,9 @@ points.forEach(function(point) {
 //example coordinated created myself
 var points2=[
     {lat: 10.2, lng: 9.1}
-    // {lat: 11.4, lng: 10.2},
-    // {lat: 10.6, lng: 7.5},
-    // {lat: 7.45, lng: 4.38}
+    {lat: 11.4, lng: 10.2},
+    {lat: 10.6, lng: 7.5},
+    {lat: 7.45, lng: 4.38}
 ];
 
 // Add markers to the map created myself
